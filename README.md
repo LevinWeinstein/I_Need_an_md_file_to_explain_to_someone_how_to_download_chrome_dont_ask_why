@@ -1,2 +1,8 @@
-# I_Need_an_md_file_to_explain_to_someone_how_to_download_chrome_dont_ask_why
-don't ask
+# Downloading Chrome
+
+'''
+wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
+echo 'deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main' | sudo tee /etc/apt/sources.list.d/google-chrome.list
+sudo apt-get update 
+sudo apt-get install google-chrome-stable
+'''
