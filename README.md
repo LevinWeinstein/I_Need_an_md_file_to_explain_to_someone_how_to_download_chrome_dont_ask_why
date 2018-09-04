@@ -1,4 +1,4 @@
-# Downloading Chrome on Linux/UNIX
+# Downloading Chrome on Debian based OSes
 
 ```bash
 wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | sudo apt-key add -
